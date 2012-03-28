@@ -1,6 +1,6 @@
 
 \begin{code}
-module WolfHunt where
+module Main where
 \end{code}
 
 \begin{code}
