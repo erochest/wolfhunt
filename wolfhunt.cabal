@@ -13,7 +13,7 @@ Version:             0.1.0
 Synopsis:            Wolf Hunt simulation
 
 -- A longer description of the package.
--- Description:         
+Description:         This is a simple simulation of the simple rules involved in a wolf hunt.
 
 -- URL for the project homepage or repository.
 Homepage:            https://github.com/erochest/wolfhunt
@@ -48,7 +48,7 @@ Cabal-version:       >=1.2
 
 Executable wolfhunt
   -- .hs or .lhs file containing the Main module.
-  -- Main-is:             
+  Main-is:             WolfHunt.lhs
   
   -- Packages needed in order to build this package.
   -- Build-depends:       
@@ -58,4 +58,8 @@ Executable wolfhunt
   
   -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
   -- Build-tools:         
+
+source-repository head
+  type:     git
+  location: git://github.com/erochest/wolfhunt.git
   
