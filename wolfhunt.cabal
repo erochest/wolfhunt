@@ -51,7 +51,8 @@ Executable wolfhunt
   Main-is:             WolfHunt.lhs
   
   -- Packages needed in order to build this package.
-  -- Build-depends:       
+  Build-depends:
+      base >=4.3 && <5
   
   -- Modules not exported by this package.
   -- Other-modules:       
